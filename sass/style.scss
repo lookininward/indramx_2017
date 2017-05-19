@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  h1, h2, h3, p, dl {font-family: 'Raleway', sans-serif;}
+}
+
+.contain-fluid {
+  margin: 0;
+}
+
+
+// Carousel
+
+.carousel-inner {
+  background-color: lighten(red,20%) !important;
+}
+
+.carousel-caption {
+  bottom: 40% !important;
+
+  h1 {
+    font-size: 8rem;
+    letter-spacing: 6px;
+    line-height: 92px;
+    text-transform: uppercase;
+  }
+}
+
+.carousel-block {
+  margin-top: -100px;
+  margin-bottom: 4em;
+  padding: 2em;
+  background-color: #fff;
+
+  h2 {
+    text-transform: uppercase;
+    margin-bottom: .7em;
+  }
+}
+
+
+.property-cards {
+  margin: 0 0 5em 0;
+}
+
+
+.contact {
+    padding: 6em 0 6em 0;
+}
+
+.personal-message {
+  margin: 0;
+  padding: 2em;
+  background: #f5f5f5;
+
+  .message,
+  .message-photo {
+    padding: 3em;
+  }
+}
+
+
+
+.card {
+  // max-width: 318px;
+}
+
+
+dd {
+  margin: 0 !important;
+}
+
+
+
+// .carousel-item.active,
+// .carousel-item-next,
+// .carousel-item-prev{
+// display:block !important;
+// }
+
+.pre-footer {
+  padding: 5em;
+  background-color: #f4f4f0;
+  text-align: center;
+}
+
+.contact-information {
+  padding: 10em;
+  background:#2d3e46;
+  color: #fff;
+}
