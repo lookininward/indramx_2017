@@ -61,7 +61,7 @@ dd {
 
 .carousel-block {
   margin-top: -100px;
-  margin-bottom: 4em;
+  margin-bottom: 3em;
   padding: 2em;
   background-color: #fff;
 
@@ -73,12 +73,27 @@ dd {
 
 // Properties and Categories
 .property-cards {
-  margin: 0 0 5em 0;
+  margin: 0 0 7em 0;
 }
 
 // Contact Form
 .contact {
     padding: 6em 0 6em 0;
+}
+
+.contact-form {
+  margin-bottom: 3em;
+  h2 {text-align: center;}
+  .submit-button {
+    width: 100%;
+    background-color: #B9AAB9;
+    border: #B9AAB9;
+    cursor: pointer;
+    &:hover {
+      background-color: #2d3e46;
+      border: #2d3e46;
+    }
+  }
 }
 
 // Personal Message
@@ -90,7 +105,12 @@ dd {
   .message,
   .message-photo {
     padding: 3em;
+    h2 {text-align: center;}
   }
+}
+
+.message {
+  text-align: center;
 }
 
 .signature {
@@ -100,7 +120,7 @@ dd {
 // Testimonials
 .testimonial {
   margin: 0;
-  padding: 2em;
+  padding: 4em 2em 4em 2em;
   background: #f5f5f5;
 
   img {
