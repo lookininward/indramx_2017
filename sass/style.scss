@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  h1, h2, h3, p, dl {font-family: 'Raleway', sans-serif;}
+  h1, h2, h3, h4, p, dl {font-family: 'Raleway', sans-serif;}
 }
 
 // Lists
@@ -10,21 +10,10 @@ dd {
 }
 
 
-// Navigation
-.navbar {
-  padding: 0.4em 1em 0.4em 1em !important;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
 
-.notification {
-  -webkit-box-shadow: inset -1px -5px 162px -54px rgba(0,0,0,0.36);
-  -moz-box-shadow: inset -1px -5px 162px -54px rgba(0,0,0,0.36);
-  box-shadow: inset -1px -5px 162px -54px rgba(0,0,0,0.36);
-}
 
 
 // Main Carousel
-
 .carousel {
   img {
     filter:grayscale(0.2);
@@ -82,7 +71,10 @@ dd {
 }
 
 .contact-form {
+  padding: 0em 0em 0em 3em;
   margin-bottom: 3em;
+  width: 50%;
+
   h2 {text-align: center;}
   .submit-button {
     width: 100%;
@@ -96,9 +88,15 @@ dd {
   }
 }
 
+.contact-banner {
+  margin-top: -150px;
+  padding: 0 3em 0 0;
+  width: 50%;
+}
+
 // Personal Message
 .personal-message {
-  margin: 0;
+  margin: 0 0 2em 0;
   padding: 2em;
   background: #f5f5f5;
 
@@ -114,12 +112,12 @@ dd {
 }
 
 .signature {
-  max-width: 200px;
+  max-width: 220px;
 }
 
 // Testimonials
 .testimonial {
-  margin: 0;
+  margin: 0 0 2em 0;
   padding: 4em 2em 4em 2em;
   background: #f5f5f5;
 
@@ -147,11 +145,12 @@ dd {
 
 // Footer
 .pre-footer {
+  margin: 10em 0 0 0;
   padding: 5em;
   background-color: #f4f4f0;
   text-align: center;
 
-  h3 {max-width:1200px;margin:0 auto;}
+  h4 {max-width:1200px;margin:0 auto;}
 }
 
 .contact-information {

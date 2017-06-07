@@ -7,7 +7,7 @@
       font-family: 'Montserrat', sans-serif;
       font-size: 14px;
       font-weight: 700;
-      letter-spacing: 0.4px;
+      letter-spacing: 2px;
       color: #000 !important;
       text-transform: uppercase;
     }
@@ -42,4 +42,33 @@
     // border-bottom: 2px solid #fff;
     &:hover {color:#fff; }
   }
+}
+
+
+// Navigation
+.navbar {
+  padding: 0.4em 1em 0.4em 1em !important;
+  width: 100%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+    .navbar-brand {
+      font-family: 'Open Sans', sans-serif;
+      letter-spacing: 4px;
+      font-weight: 600;
+      text-transform: uppercase;
+
+      img {
+        margin-right: 10px;
+      }
+
+    .nav-item a {
+      // letter-spacing: 10px !important;
+    }
+  }
+}
+
+.notification {
+  -webkit-box-shadow: inset -1px -5px 162px -54px rgba(0,0,0,0.36);
+  -moz-box-shadow: inset -1px -5px 162px -54px rgba(0,0,0,0.36);
+  box-shadow: inset -1px -5px 162px -54px rgba(0,0,0,0.36);
 }
