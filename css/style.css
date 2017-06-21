@@ -60,9 +60,10 @@ dd {
       border: #2d3e46; }
 
 .contact-banner {
-  margin-top: -150px;
   padding: 0 3em 0 0;
   width: 50%; }
+  .contact-banner img {
+    margin: 3em 0 3em 0; }
 
 .personal-message {
   margin: 0 0 2em 0;
